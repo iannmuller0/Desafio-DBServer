@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const NavbarItems = styled.ul`
   justify-content: flex-end;
@@ -16,10 +17,11 @@ export const NavbarItem = styled.li`
   margin-bottom: 10px;
 `;
 
-export const NavbarLink = styled.span`
+export const NavbarLink = styled(Link)`
   text-decoration: none;
   cursor: pointer;
-
+  color: black;
+  
   :hover {
     color: #777575;
   }

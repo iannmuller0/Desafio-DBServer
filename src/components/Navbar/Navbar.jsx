@@ -5,13 +5,13 @@ const Layout = () => {
   return (
       <Styled.NavbarItems>
         <Styled.NavbarItem>
-          <Styled.NavbarLink href='#'>Restaurantes</Styled.NavbarLink>
+          <Styled.NavbarLink to='/restaurants'>Restaurantes</Styled.NavbarLink>
         </Styled.NavbarItem>
         <Styled.NavbarItem>
-          <Styled.NavbarLink href='#'>Ver votação</Styled.NavbarLink>
+          <Styled.NavbarLink to='#'>Votação</Styled.NavbarLink>
         </Styled.NavbarItem>
         <Styled.NavbarItem>
-          <Styled.NavbarLink href='#'>Login</Styled.NavbarLink>
+          <Styled.NavbarLink to='#'>Login</Styled.NavbarLink>
         </Styled.NavbarItem>
       </Styled.NavbarItems>
   );
