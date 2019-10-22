@@ -3,7 +3,7 @@ import ShowRestaurantList from '../../components/ShowRestaurantsList/ShowRestaur
 import Navbar from '../../components/Navbar/Navbar';
 import { Container } from 'react-grid-system';
 
-const Restaunt = () => {
+const Restaurant = () => {
   return (
     <Container>
       <Navbar />
@@ -12,4 +12,4 @@ const Restaunt = () => {
   );
 };
 
-export default Restaunt;
+export default Restaurant;
