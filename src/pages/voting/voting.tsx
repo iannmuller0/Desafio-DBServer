@@ -13,9 +13,9 @@ const Voting = () => {
   ]);
 
   const vote = (index: number) => {
-      const restaurants = [...RestaurantVoteList];
-      restaurants[index].votes = restaurants[index].votes+1;
-      setRestaurantVoteList(restaurants);
+    const restaurants = [...RestaurantVoteList];
+    restaurants[index].votes = restaurants[index].votes+1;
+    setRestaurantVoteList(restaurants);
   }
 
   return (
