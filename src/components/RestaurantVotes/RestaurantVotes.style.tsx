@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Span = styled.span`
   display: flex;
   flex-direction: column;
-  margin-bottom: 2px;
+  margin-bottom: 10px;
 `;
 
 export const Button = styled.button`
@@ -19,5 +19,5 @@ export const Button = styled.button`
 `;
 
 export const Div = styled.div`
-  width: 150px;
+  width: 190px;
 `;
