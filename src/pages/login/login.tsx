@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react'
+import React, { useState, useContext, SyntheticEvent } from 'react'
 import { Container, Button, Input } from './login.style';
 import { Redirect } from 'react-router-dom';
 import Users from '../../mockData/UsersList';
@@ -9,7 +9,7 @@ const Login = () => {
   const context = useContext(Context)
   const [redirect, setRedirect] = useState(false);
 
-  const fakeLogin = (event: any) => {
+  const fakeLogin = (event: SyntheticEvent) => {
     event.preventDefault();
 
     const user = find(Users, {'name': context.user });

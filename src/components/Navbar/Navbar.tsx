@@ -11,7 +11,7 @@ const Layout = () => {
           <Styled.NavbarLink to='/voting'>Votação</Styled.NavbarLink>
         </Styled.NavbarItem>
         <Styled.NavbarItem>
-          <Styled.NavbarLink to='/'>Sair</Styled.NavbarLink>
+          <Styled.NavbarLink to='/'>Login</Styled.NavbarLink>
         </Styled.NavbarItem>
       </Styled.NavbarItems>
   );

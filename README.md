@@ -18,7 +18,7 @@ Desafio DBServer
   alguns usuários já votaram e não poderão votar novamente
 
 ### O que vale destacar no código implementado
-  - Foi utilizado Context API por não haver necessidade de Redux e por uma maior facilidade de mexer com Context e Hooks juntos
+  - Foi utilizado Context API,para demonstração de conhecimento, por não haver necessidade de Redux e por uma maior facilidade de mexer com Context e Hooks juntos
   
 
 ### O que poderia ser feito para melhorar o sistema?
@@ -30,4 +30,4 @@ Desafio DBServer
 
 ### Algo a mais que você tenha a dizer?
   - Por se usar context para armazenar o usuario logado, ao se atualizar a tela deve-se fazer login novamente ou não será possível votar.
-
+  
