@@ -8,6 +8,7 @@ const Restaurantvotes = ({ onClick, RestaurantVoteList }: IRestaurantVotes) => (
     {
       map(RestaurantVoteList, (restaurant, index) => (
         <Styled.Div key={index}>
+          <Styled.Img src={restaurant.image} />
           <Styled.Span>
             {restaurant.name}
           </Styled.Span>
@@ -16,7 +17,7 @@ const Restaurantvotes = ({ onClick, RestaurantVoteList }: IRestaurantVotes) => (
           </Styled.Span>
           { restaurant.hasBeenPicked 
             ?
-              <span>Restaurante já escolhido</span>
+              <span>Já escolhido nessa semana</span>
             :
               <Styled.Button onClick={() => onClick(index)}>VOTE</Styled.Button>
           } 

@@ -7,6 +7,7 @@ const Restaurant = () => {
   return (
     <Container>
       <Navbar />
+        <h1>Restaurantes</h1>
         <ShowRestaurantList />
     </Container>
   );

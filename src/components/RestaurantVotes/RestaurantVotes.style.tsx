@@ -14,10 +14,23 @@ export const Button = styled.button`
   border-radius: 5px;
   border-style: solid;
   width: 100%;
+  color: green;
+  background-color: #b9f998;
   text-align: center;
   cursor: pointer;
 `;
 
 export const Div = styled.div`
+  width: 190px;
+  padding: 5px;
+  margin-right: 25px;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: gray;
+  border-style: solid;
+`;
+
+export const Img = styled.img`
+  height: 140px;
   width: 190px;
 `;
