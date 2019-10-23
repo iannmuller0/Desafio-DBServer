@@ -14,7 +14,12 @@ const Restaurantvotes = ({ onClick, RestaurantVoteList }: IRestaurantVotes) => (
           <Styled.Span>
             votos: {RestaurantVoteList[index].votes}
           </Styled.Span>
-          <Styled.Button onClick={() => onClick(index)}>VOTE</Styled.Button>
+          { restaurant.hasBeenPicked 
+            ?
+              <span>Restaurante já escolhido</span>
+            :
+              <Styled.Button onClick={() => onClick(index)}>VOTE</Styled.Button>
+          } 
         </Styled.Div>
       ))
     }
