@@ -8,7 +8,7 @@ const Layout = () => {
           <Styled.NavbarLink to='/restaurants'>Restaurantes</Styled.NavbarLink>
         </Styled.NavbarItem>
         <Styled.NavbarItem>
-          <Styled.NavbarLink to='#'>Votação</Styled.NavbarLink>
+          <Styled.NavbarLink to='/voting'>Votação</Styled.NavbarLink>
         </Styled.NavbarItem>
         <Styled.NavbarItem>
           <Styled.NavbarLink to='#'>Login</Styled.NavbarLink>
