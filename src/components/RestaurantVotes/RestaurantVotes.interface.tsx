@@ -1,6 +1,6 @@
 export default interface IRestaurantVotes {
   onClick(index: number): void,
-  RestaurantVoteList: {
+  restaurantVoteList: {
     id: number,
     name: string,
     address: string,    

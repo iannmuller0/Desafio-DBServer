@@ -29,7 +29,7 @@ const Voting = () => {
       <Navbar />
       <h1>Vote no restaurante que você quer ir almoçar</h1>
       <Div>
-        <Restaurantvotes onClick={vote} RestaurantVoteList={RestaurantVoteList} />
+        <Restaurantvotes onClick={vote} restaurantVoteList={RestaurantVoteList} />
       </Div>
     </Container>
   );
