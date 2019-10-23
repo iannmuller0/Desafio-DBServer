@@ -1,11 +1,21 @@
 Desafio DBServer
 
 ## Requisitos de ambiente necessários para compilar e rodar o software
+  Passo 1: Clone o repositorio:
+    git clone https://github.com/iannmuller0/desafio-dbserver.git
 
-In the project directory, you can run:
+  Passo 2: Rode npm install na raiz do repositorio clonado
+    npm install
 
+  Passo 3: Rode a aplicação:
+    npm start
+  
+  requisitos:
+    -esse projeto foi criado usando  node v11.9.0
+    
 ### Instruções de como utilizar o sistema.
   - Logue no sistema utilizando qualquer usuário da lista que se encontra em src/mockData/UsersList.js
+  alguns usuários já votaram e não poderão votar novamente
 
 ### O que vale destacar no código implementado
   - Foi utilizado Context API por não haver necessidade de Redux e por uma maior facilidade de mexer com Context e Hooks juntos
