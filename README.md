@@ -1,11 +1,13 @@
 Desafio DBServer
 
-## Requisitos de ambiente necessários para compilar e rodar o software
-
-In the project directory, you can run:
+## Requisitos de ambiente necessários para compilar e rodar o software  
+  - Node instalado
+  - Rodar npm install
+  - Rodar npm start
 
 ### Instruções de como utilizar o sistema.
   - Logue no sistema utilizando qualquer usuário da lista que se encontra em src/mockData/UsersList.js
+  alguns usuários já votaram e não poderão votar novamente
 
 ### O que vale destacar no código implementado
   - Foi utilizado Context API por não haver necessidade de Redux e por uma maior facilidade de mexer com Context e Hooks juntos

@@ -7,7 +7,7 @@ const ShowRestaurantList = () => (
   <Styled.RestaurantsItems>
     {
       map(RestaurantList, (restaurant: {id: number, name: string, address: string}) => (
-        <Styled.RestaurantsItem key={restaurant.id}>{restaurant.name} - {restaurant.address}</Styled.RestaurantsItem>
+        <Styled.RestaurantsItem key={restaurant.id}>{restaurant.name}: {restaurant.address}</Styled.RestaurantsItem>
       ))
     }
   </Styled.RestaurantsItems>
