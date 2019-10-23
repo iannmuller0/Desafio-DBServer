@@ -21,7 +21,7 @@ export const Button = styled.button`
 `;
 
 export const Div = styled.div`
-  width: 190px;
+  width: 195px;
   padding: 5px;
   margin-right: 25px;
   border-width: 1px;
@@ -32,5 +32,5 @@ export const Div = styled.div`
 
 export const Img = styled.img`
   height: 140px;
-  width: 190px;
+  width: 195px;
 `;
