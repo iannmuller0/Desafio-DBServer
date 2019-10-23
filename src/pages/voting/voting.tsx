@@ -6,10 +6,10 @@ import { Div } from './voting.style';
 
 const Voting = () => {
   const [RestaurantVoteList, setRestaurantVoteList] = useState([
-    { name: 'Mister X', votes: 0},
+    { name: 'Mister X', votes: 1},
     { name: 'Mr. Chau', votes: 0},
     { name: 'Guacamole', votes: 0},
-    { name: 'Cachorro do Gordo', votes: 0},
+    { name: 'Cachorro do Gordo', votes: 2},
   ]);
 
   const vote = (index: number) => {
