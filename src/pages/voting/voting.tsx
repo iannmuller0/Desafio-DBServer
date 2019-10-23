@@ -17,7 +17,7 @@ const Voting = () => {
       restaurants[index].votes = restaurants[index].votes+1;
       setRestaurantVoteList(restaurants);
   }
-  console.log(RestaurantVoteList)
+
   return (
     <Container>
       <Navbar />
