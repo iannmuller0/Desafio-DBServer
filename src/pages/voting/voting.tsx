@@ -6,15 +6,12 @@ import { Div } from './voting.style';
 import Context from '../../context';
 import { find } from 'lodash';
 import Users from '../../mockData/UsersList';
+import restaurantsList from '../../mockData/RestaurantList';
+
 
 const Voting = () => {
   const context = useContext(Context)
-  const [RestaurantVoteList, setRestaurantVoteList] = useState([
-    { name: 'Mister X', votes: 1, hasBeenPicked: false},
-    { name: 'Mr. Chau', votes: 0, hasBeenPicked: false},
-    { name: 'Guacamole', votes: 0, hasBeenPicked: true},
-    { name: 'Cachorro do Gordo', votes: 2, hasBeenPicked: false},
-  ]);
+  const [RestaurantVoteList, setRestaurantVoteList] = useState(restaurantsList);
 
   const vote = (index: number) => {
     const restaurants = [...RestaurantVoteList];
@@ -30,6 +27,7 @@ const Voting = () => {
   return (
     <Container>
       <Navbar />
+      <h1>Vote no restaurante que você quer ir almoçar</h1>
       <Div>
         <Restaurantvotes onClick={vote} RestaurantVoteList={RestaurantVoteList} />
       </Div>

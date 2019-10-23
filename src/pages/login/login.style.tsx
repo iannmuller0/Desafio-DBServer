@@ -5,7 +5,7 @@ export const Container = styled(GridContainer)`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 600px;
 `;
 
 export const Button = styled.button`
